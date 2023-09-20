@@ -1,0 +1,12 @@
+Creating a diagram where the user creates a new note using the single-page app
+
+stateDiagram-v3
+    [*] --> user
+    user --> server
+    server --> browser
+    browser-->Network
+    Network-->newNote
+    newNote-->getJavaScriptCode
+    getJavaScriptCode-->post_Method
+    post_Method-->JSON
+    JSON-->[*]
