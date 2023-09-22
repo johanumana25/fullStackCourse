@@ -1,0 +1,7 @@
+Creating a diagram where the user goes to the single-page app
+
+stateDiagram-v2
+    [*] --> user
+    user --> server
+    server --> browser
+    browser-->[*]
