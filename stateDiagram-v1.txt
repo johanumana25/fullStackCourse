@@ -1,5 +1,0 @@
-stateDiagram-v1
-[*]-->writing
-writing-->textField
-textField-->writing
-textField-->SaveButton
